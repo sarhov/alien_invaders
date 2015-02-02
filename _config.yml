@@ -1,0 +1,19 @@
+# Site settings
+title: 'PSD to html using compass and jekyll'
+email: 'site email'
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/alien_invaders/"
+url: "./" # the base hostname & protocol for your site
+# Build settings
+markdown: kramdown
+include:      ["*.scss"]
+exclude: ["*.sublime-project", "*.sublime-workspace", "*PSD"]
+collections:
+  collection_name:
+    output: true
+  collectin_name:
+    output: true
+

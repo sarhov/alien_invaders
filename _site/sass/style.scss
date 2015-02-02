@@ -1,0 +1,11 @@
+@import "compass";
+
+@import "compass";
+
+*, *:before, *:after {
+  @include box-sizing(border-box);
+}
+
+.clearfix {
+  @include pie-clearfix;
+}

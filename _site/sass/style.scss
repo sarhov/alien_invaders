@@ -1,11 +1,13 @@
 @import "compass";
-
-@import "compass";
-
-*, *:before, *:after {
-  @include box-sizing(border-box);
+$icons-spacing: 20px;
+$icons-layout: vertical;
+@import "icons/*.png";
+@include all-icons-sprites;    
+  
+*, *:before, *:after { 
+  @include box-sizing(border-box); 
 }
-
+ 
 .clearfix {
   @include pie-clearfix;
 }

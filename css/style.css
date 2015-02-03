@@ -66,3 +66,56 @@
   display: table;
   clear: both;
 }
+
+/* line 15, ../sass/style.scss */
+body {
+  font-family: Verdana;
+  font-size: 14px;
+  color: #5f5f5f;
+}
+
+/* line 21, ../sass/style.scss */
+.ymaps-b-zoom, .ymaps-copyrights-pane, .ymaps-group, .ymaps-b-select_control_listbox {
+  display: none !important;
+}
+
+/* line 26, ../sass/style.scss */
+.wrap {
+  width: 100%;
+}
+
+/* line 30, ../sass/style.scss */
+.inner {
+  width: 1000px;
+  margin: auto;
+}
+
+/* line 35, ../sass/style.scss */
+.b-block__title {
+  font-size: 26;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+  position: relative;
+  color: #5f5f5f;
+  text-transform: uppercase;
+}
+/* line 43, ../sass/style.scss */
+.b-block__title:after {
+  content: '';
+  width: 120px;
+  height: 3px;
+  background: #70b9f6;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -60px;
+}
+/* line 53, ../sass/style.scss */
+.b-block__title_white {
+  color: #fff;
+}
+/* line 55, ../sass/style.scss */
+.b-block__title_white:after {
+  background-color: #fff;
+}

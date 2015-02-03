@@ -18,6 +18,9 @@ body{
   color: #5f5f5f;
 }
 
+.ymaps-b-zoom, .ymaps-copyrights-pane, .ymaps-group, .ymaps-b-select_control_listbox{
+  display: none !important;
+}
 
 
 .wrap{

@@ -366,6 +366,7 @@ button:focus {
 
 .b-map{
   position: absolute;
+  background:#D0CFCF;
   left: 0;
   top:0;
   width: 100%;
@@ -486,13 +487,14 @@ button:focus {
     border:1px solid  #aeaeae;
     height: 30px;
     line-height: 27px;
-    font-size: 11px;
+    font-size: 12px;
     cursor: pointer;
     color: #5a5a5a;
     background: none;
     padding:0 20px;
     text-transform: uppercase;
     font-weight: bold;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
     @include transition(border-color 0.2s);
     &:hover{
         border-color: darken(#aeaeae, 20%);
@@ -500,3 +502,17 @@ button:focus {
   }
 }
 
+.wrap_footer{
+  background:#3c3c3c;
+  padding: 27px 0;
+}
+
+.b-footer{
+  text-align: center;
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  &__content{
+    font-size: 18px;
+    line-height: 1;
+    color: #989898;
+  }
+}

@@ -499,30 +499,31 @@ button:focus {
 /* line 367, ../sass/style.scss */
 .b-map {
   position: absolute;
+  background: #D0CFCF;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   z-index: 1;
 }
-/* line 374, ../sass/style.scss */
+/* line 375, ../sass/style.scss */
 .b-map > ymaps {
   width: 100% !important;
   height: 100% !important;
 }
 
-/* line 380, ../sass/style.scss */
+/* line 381, ../sass/style.scss */
 .b-block_contact {
   position: relative;
   z-index: 2;
 }
 
-/* line 385, ../sass/style.scss */
+/* line 386, ../sass/style.scss */
 .b-block__block-title {
   text-align: center;
   margin-bottom: 75px;
 }
-/* line 388, ../sass/style.scss */
+/* line 389, ../sass/style.scss */
 .b-block__block-title-text {
   display: inline-block;
   color: #252525;
@@ -533,7 +534,7 @@ button:focus {
   font-weight: bold;
 }
 
-/* line 399, ../sass/style.scss */
+/* line 400, ../sass/style.scss */
 .b-address, .b-contact-form {
   padding: 15px 25px 20px 25px;
   background: #fff;
@@ -541,17 +542,17 @@ button:focus {
   display: table;
   margin-bottom: 20px;
 }
-/* line 405, ../sass/style.scss */
+/* line 406, ../sass/style.scss */
 .b-address__line:not(:last-child) {
   margin-bottom: 20px;
 }
-/* line 408, ../sass/style.scss */
+/* line 409, ../sass/style.scss */
 .b-address__box, .b-contact-form__box {
   float: left;
   width: 50%;
   padding-right: 20px;
 }
-/* line 413, ../sass/style.scss */
+/* line 414, ../sass/style.scss */
 .b-address__label {
   display: block;
   line-height: 1;
@@ -559,18 +560,18 @@ button:focus {
   margin-bottom: 5px;
   color: #919191;
 }
-/* line 420, ../sass/style.scss */
+/* line 421, ../sass/style.scss */
 .b-address__text {
   color: #353535;
   font-size: 14px;
 }
 
-/* line 426, ../sass/style.scss */
+/* line 427, ../sass/style.scss */
 .b-contact-form {
   padding-bottom: 22px;
   width: 560px;
 }
-/* line 430, ../sass/style.scss */
+/* line 431, ../sass/style.scss */
 .b-contact-form__title {
   text-align: center;
   color: #282828;
@@ -579,31 +580,31 @@ button:focus {
   font-size: 19px;
   font-weight: bold;
 }
-/* line 439, ../sass/style.scss */
+/* line 440, ../sass/style.scss */
 .b-contact-form__content {
   padding-bottom: 20px;
 }
-/* line 444, ../sass/style.scss */
+/* line 445, ../sass/style.scss */
 .b-contact-form__box:first-child {
   width: 275px;
 }
-/* line 448, ../sass/style.scss */
+/* line 449, ../sass/style.scss */
 .b-contact-form__box:last-child {
   width: 234px;
   padding-right: 0;
 }
-/* line 453, ../sass/style.scss */
+/* line 454, ../sass/style.scss */
 .b-contact-form__line {
   margin-bottom: 7px;
 }
-/* line 456, ../sass/style.scss */
+/* line 457, ../sass/style.scss */
 .b-contact-form__label {
   display: block;
   font-size: 13px;
   color: #5f5f5f;
   margin-bottom: 4px;
 }
-/* line 462, ../sass/style.scss */
+/* line 463, ../sass/style.scss */
 .b-contact-form__input-text, .b-contact-form__textarea {
   width: 240px;
   background: #fcfcfc;
@@ -617,38 +618,57 @@ button:focus {
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
-/* line 471, ../sass/style.scss */
+/* line 472, ../sass/style.scss */
 .b-contact-form__input-text:focus, .b-contact-form__textarea:focus {
   background-color: #efefef;
 }
-/* line 475, ../sass/style.scss */
+/* line 476, ../sass/style.scss */
 .b-contact-form__textarea {
   width: 100%;
   height: 155px;
   resize: none;
 }
-/* line 481, ../sass/style.scss */
+/* line 482, ../sass/style.scss */
 .b-contact-form__action {
   text-align: center;
 }
-/* line 484, ../sass/style.scss */
+/* line 485, ../sass/style.scss */
 .b-contact-form__input-submit {
   border: 1px solid  #aeaeae;
   height: 30px;
   line-height: 27px;
-  font-size: 11px;
+  font-size: 12px;
   cursor: pointer;
   color: #5a5a5a;
   background: none;
   padding: 0 20px;
   text-transform: uppercase;
   font-weight: bold;
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
   -moz-transition: border-color 0.2s;
   -o-transition: border-color 0.2s;
   -webkit-transition: border-color 0.2s;
   transition: border-color 0.2s;
 }
-/* line 497, ../sass/style.scss */
+/* line 499, ../sass/style.scss */
 .b-contact-form__input-submit:hover {
   border-color: #7b7b7b;
+}
+
+/* line 505, ../sass/style.scss */
+.wrap_footer {
+  background: #3c3c3c;
+  padding: 27px 0;
+}
+
+/* line 510, ../sass/style.scss */
+.b-footer {
+  text-align: center;
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+/* line 513, ../sass/style.scss */
+.b-footer__content {
+  font-size: 18px;
+  line-height: 1;
+  color: #989898;
 }

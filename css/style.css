@@ -103,18 +103,26 @@ a {
   display: none !important;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+/* line 37, ../sass/style.scss */
 .wrap {
   width: 100%;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 .inner {
   width: 1000px;
   margin: auto;
 }
 
-/* line 40, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 .b-block__title {
   font-size: 26px;
   font-weight: bold;
@@ -125,7 +133,7 @@ a {
   margin-bottom: 65px;
   text-transform: uppercase;
 }
-/* line 49, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .b-block__title:after {
   content: '';
   width: 120px;
@@ -136,38 +144,38 @@ a {
   left: 50%;
   margin-left: -60px;
 }
-/* line 59, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .b-block__title_white {
   color: #fff;
 }
-/* line 61, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 .b-block__title_white:after {
   background-color: #fff;
 }
 
-/* line 68, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .wrap_header {
   height: 604px;
   background: #404249 url("../images/header-bg.png") center top/cover no-repeat fixed;
 }
 
-/* line 73, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 .b-top-bar {
   padding-top: 50px;
 }
 
-/* line 77, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 .b-site {
   width: 200px;
   float: left;
 }
 
-/* line 82, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .b-contacts {
   float: right;
   width: 200px;
 }
-/* line 86, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 .b-contacts__email {
   float: right;
   margin-bottom: 10px;
@@ -176,7 +184,7 @@ a {
   font-size: 14px;
   text-decoration: none;
 }
-/* line 93, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 .b-contacts__email:before {
   content: '';
   position: absolute;
@@ -185,15 +193,15 @@ a {
   bottom: -2px;
   border-bottom: 1px solid #365376;
 }
-/* line 101, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 .b-contacts__email:hover {
   border-color: transparent;
 }
-/* line 103, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 .b-contacts__email:hover:before {
   border-color: transparent;
 }
-/* line 109, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 .b-contacts__phone {
   float: right;
   clear: right;
@@ -201,7 +209,7 @@ a {
   font-size: 18px;
   margin-bottom: 7px;
 }
-/* line 117, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .b-contacts__action {
   float: right;
   clear: right;
@@ -210,17 +218,17 @@ a {
   text-decoration: none;
   border-bottom: 1px dashed #459be3;
 }
-/* line 124, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 .b-contacts__action:hover {
   border-color: transparent;
 }
 
-/* line 131, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .b-header-box {
   padding-top: 140px;
   text-align: center;
 }
-/* line 134, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .b-header-box__title {
   font-size: 30px;
   text-transform: uppercase;
@@ -228,7 +236,7 @@ a {
   color: #fff;
   font-weight: bold;
 }
-/* line 141, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .b-header-box__subtitle {
   max-width: 600px;
   font-size: 14px;
@@ -237,7 +245,7 @@ a {
   margin-right: auto;
   margin-bottom: 40px;
 }
-/* line 150, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .b-header-box__action, .b-block__action-button {
   text-decoration: none;
   height: 47px;
@@ -254,26 +262,26 @@ a {
   -webkit-transition: border-color 0.2s;
   transition: border-color 0.2s;
 }
-/* line 162, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .b-header-box__action:hover, .b-block__action-button:hover {
   border-color: #529ad6;
 }
 
-/* line 168, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .wrap_under-header {
   padding: 65px 0 100px 0;
   background: #fafafa;
 }
 
-/* line 173, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .b-block {
   margin: auto;
 }
-/* line 174, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .b-block__action {
   text-align: center;
 }
-/* line 177, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .b-block__action-button {
   display: inline-block;
   border-color: #70b9f6;
@@ -281,17 +289,17 @@ a {
   line-height: 44px;
   color: #4f4f4f;
 }
-/* line 184, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .b-block__action-button:hover {
   border-color: #40a2f3;
 }
 
-/* line 191, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 .b-info-wrap {
   margin-left: -30px;
 }
 
-/* line 194, ../sass/style.scss */
+/* line 200, ../sass/style.scss */
 .b-info {
   width: 480px;
   float: left;
@@ -302,7 +310,7 @@ a {
   position: relative;
   margin-left: 30px;
 }
-/* line 203, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 .b-info__title {
   font-size: 16px;
   color: #282828;
@@ -310,30 +318,30 @@ a {
   margin-bottom: 15px;
   line-height: 1;
 }
-/* line 210, ../sass/style.scss */
+/* line 216, ../sass/style.scss */
 .b-info__content {
   color: #5f5f5f;
   line-height: 1.2;
 }
-/* line 214, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 .b-info__icon {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 222, ../sass/style.scss */
+/* line 228, ../sass/style.scss */
 .wrap_prices {
   padding: 50px 0  90px 0;
   background: #90c4f8 url("../images/boxes-bg.png") center top/cover no-repeat fixed;
 }
 
-/* line 227, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .b-list-wrap {
   padding: 0 13px;
   position: relative;
 }
-/* line 230, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .b-list-wrap:before {
   content: 'или';
   position: absolute;
@@ -348,19 +356,19 @@ a {
   text-transform: uppercase;
 }
 
-/* line 245, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .b-list {
   width: 404px;
 }
-/* line 247, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 .b-list_left {
   float: left;
 }
-/* line 250, ../sass/style.scss */
+/* line 256, ../sass/style.scss */
 .b-list_right {
   float: right;
 }
-/* line 253, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 .b-list__item {
   padding: 20px 30px;
   background: #fafafa;
@@ -372,34 +380,35 @@ a {
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
-/* line 260, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 .b-list__item:not(:first-child) {
   border-top: 1px solid #e0dede;
 }
-/* line 263, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 .b-list__item:hover {
   background-color: #ededed;
 }
 
-/* line 269, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 .wrap_portfolio {
   padding: 75px 0 65px 0;
   background: #fafafa;
 }
 
-/* line 275, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 .b-slider {
   max-height: 320px;
+  overflow: hidden;
   position: relative;
 }
-/* line 278, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 .b-slider__content {
   max-width: 720px;
   overflow: hidden;
   min-height: 100%;
   margin: auto;
 }
-/* line 284, ../sass/style.scss */
+/* line 291, ../sass/style.scss */
 .b-slider__action {
   position: absolute;
   width: 64px;
@@ -407,50 +416,50 @@ a {
   top: 50%;
   margin-top: -32px;
 }
-/* line 290, ../sass/style.scss */
+/* line 297, ../sass/style.scss */
 .b-slider__action i {
   display: inline-block;
 }
-/* line 293, ../sass/style.scss */
+/* line 300, ../sass/style.scss */
 .b-slider__action_left {
   left: 0;
 }
-/* line 296, ../sass/style.scss */
+/* line 303, ../sass/style.scss */
 .b-slider__action_right {
   right: 0;
 }
-/* line 299, ../sass/style.scss */
+/* line 306, ../sass/style.scss */
 .b-slider__action:hover {
   opacity: 0.7;
 }
 
-/* line 306, ../sass/style.scss */
+/* line 313, ../sass/style.scss */
 .b-slider-item__image {
   float: left;
   margin-right: 20px;
   min-width: 210px;
 }
-/* line 311, ../sass/style.scss */
+/* line 318, ../sass/style.scss */
 .b-slider-item__img {
   max-width: 100%;
   height: auto;
 }
-/* line 315, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 .b-slider-item__content {
   padding-top: 30px;
   overflow: hidden;
   color: #5f5f5f;
   line-height: 1.3;
 }
-/* line 320, ../sass/style.scss */
+/* line 327, ../sass/style.scss */
 .b-slider-item__content p {
   margin-bottom: 30px;
 }
-/* line 323, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 .b-slider-item__content p + p:last-child {
   margin-bottom: 0;
 }
-/* line 327, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 .b-slider-item__title {
   font-size: 18px;
   margin-bottom: 20px;
@@ -460,23 +469,186 @@ a {
   font-weight: bold;
 }
 
-/* line 337, ../sass/style.scss */
+/* line 344, ../sass/style.scss */
 .wrap_checklist {
   padding: 65px 0 60px 0;
   background: #eeeeee;
 }
 
-/* line 342, ../sass/style.scss */
+/* line 349, ../sass/style.scss */
 .b-checklist {
   display: table;
   margin: auto;
 }
-/* line 346, ../sass/style.scss */
+/* line 353, ../sass/style.scss */
 .b-checklist__icon {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 350, ../sass/style.scss */
+/* line 357, ../sass/style.scss */
 .b-checklist__item {
   margin-bottom: 13px;
+}
+
+/* line 362, ../sass/style.scss */
+.wrap_contact {
+  padding: 40px 0 80px 0;
+  position: relative;
+}
+
+/* line 367, ../sass/style.scss */
+.b-map {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+/* line 374, ../sass/style.scss */
+.b-map > ymaps {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* line 380, ../sass/style.scss */
+.b-block_contact {
+  position: relative;
+  z-index: 2;
+}
+
+/* line 385, ../sass/style.scss */
+.b-block__block-title {
+  text-align: center;
+  margin-bottom: 75px;
+}
+/* line 388, ../sass/style.scss */
+.b-block__block-title-text {
+  display: inline-block;
+  color: #252525;
+  padding: 10px 15px;
+  background: #fff;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 399, ../sass/style.scss */
+.b-address, .b-contact-form {
+  padding: 15px 25px 20px 25px;
+  background: #fff;
+  box-shadow: 0 0 5px #ddd;
+  display: table;
+  margin-bottom: 20px;
+}
+/* line 405, ../sass/style.scss */
+.b-address__line:not(:last-child) {
+  margin-bottom: 20px;
+}
+/* line 408, ../sass/style.scss */
+.b-address__box, .b-contact-form__box {
+  float: left;
+  width: 50%;
+  padding-right: 20px;
+}
+/* line 413, ../sass/style.scss */
+.b-address__label {
+  display: block;
+  line-height: 1;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #919191;
+}
+/* line 420, ../sass/style.scss */
+.b-address__text {
+  color: #353535;
+  font-size: 14px;
+}
+
+/* line 426, ../sass/style.scss */
+.b-contact-form {
+  padding-bottom: 22px;
+  width: 560px;
+}
+/* line 430, ../sass/style.scss */
+.b-contact-form__title {
+  text-align: center;
+  color: #282828;
+  margin-bottom: 23px;
+  line-height: 1;
+  font-size: 19px;
+  font-weight: bold;
+}
+/* line 439, ../sass/style.scss */
+.b-contact-form__content {
+  padding-bottom: 20px;
+}
+/* line 444, ../sass/style.scss */
+.b-contact-form__box:first-child {
+  width: 275px;
+}
+/* line 448, ../sass/style.scss */
+.b-contact-form__box:last-child {
+  width: 234px;
+  padding-right: 0;
+}
+/* line 453, ../sass/style.scss */
+.b-contact-form__line {
+  margin-bottom: 7px;
+}
+/* line 456, ../sass/style.scss */
+.b-contact-form__label {
+  display: block;
+  font-size: 13px;
+  color: #5f5f5f;
+  margin-bottom: 4px;
+}
+/* line 462, ../sass/style.scss */
+.b-contact-form__input-text, .b-contact-form__textarea {
+  width: 240px;
+  background: #fcfcfc;
+  color: #282828;
+  height: 33px;
+  font-size: 14px;
+  padding: 0 5px;
+  border: 1px solid #ebebeb;
+  -moz-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+/* line 471, ../sass/style.scss */
+.b-contact-form__input-text:focus, .b-contact-form__textarea:focus {
+  background-color: #efefef;
+}
+/* line 475, ../sass/style.scss */
+.b-contact-form__textarea {
+  width: 100%;
+  height: 155px;
+  resize: none;
+}
+/* line 481, ../sass/style.scss */
+.b-contact-form__action {
+  text-align: center;
+}
+/* line 484, ../sass/style.scss */
+.b-contact-form__input-submit {
+  border: 1px solid  #aeaeae;
+  height: 30px;
+  line-height: 27px;
+  font-size: 11px;
+  cursor: pointer;
+  color: #5a5a5a;
+  background: none;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  -moz-transition: border-color 0.2s;
+  -o-transition: border-color 0.2s;
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+}
+/* line 497, ../sass/style.scss */
+.b-contact-form__input-submit:hover {
+  border-color: #7b7b7b;
 }

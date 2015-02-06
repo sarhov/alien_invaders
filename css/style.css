@@ -7,56 +7,74 @@
 /* line 84, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-arrow-left {
   background-position: 0 0;
+  height: 64px;
+  width: 64px;
 }
 
 /* line 84, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-arrow-right {
   background-position: 0 -84px;
+  height: 64px;
+  width: 64px;
 }
 
 /* line 84, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-check {
   background-position: 0 -168px;
+  height: 12px;
+  width: 15px;
 }
 
 /* line 84, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-code {
   background-position: 0 -200px;
+  height: 91px;
+  width: 91px;
 }
 
 /* line 84, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-command {
   background-position: 0 -311px;
+  height: 91px;
+  width: 91px;
 }
 
 /* line 84, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-hand {
   background-position: 0 -422px;
+  height: 91px;
+  width: 91px;
 }
 
 /* line 84, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-logo {
   background-position: 0 -533px;
+  height: 63px;
+  width: 192px;
 }
 
 /* line 84, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-responsive {
   background-position: 0 -616px;
+  height: 91px;
+  width: 91px;
 }
 
 /* line 84, ../../../../../../jekyll/ruby/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-tz {
   background-position: 0 -727px;
+  height: 91px;
+  width: 91px;
 }
 
-/* line 7, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -67,45 +85,46 @@
   clear: both;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 body {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 14px;
   color: #5f5f5f;
 }
 
-/* line 21, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 a {
   color: #459be3;
 }
 
-/* line 25, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .ymaps-b-zoom, .ymaps-copyrights-pane, .ymaps-group, .ymaps-b-select_control_listbox {
   display: none !important;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .wrap {
   width: 100%;
 }
 
-/* line 34, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .inner {
   width: 1000px;
   margin: auto;
 }
 
-/* line 39, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .b-block__title {
-  font-size: 26;
+  font-size: 26px;
   font-weight: bold;
   text-align: center;
   padding-bottom: 20px;
   position: relative;
-  color: #5f5f5f;
+  color: #282828;
+  margin-bottom: 65px;
   text-transform: uppercase;
 }
-/* line 47, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .b-block__title:after {
   content: '';
   width: 120px;
@@ -116,47 +135,47 @@ a {
   left: 50%;
   margin-left: -60px;
 }
-/* line 57, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .b-block__title_white {
   color: #fff;
 }
-/* line 59, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .b-block__title_white:after {
   background-color: #fff;
 }
 
-/* line 66, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .wrap_header {
   height: 604px;
   background: #404249 url("../images/header-bg.png") center top/cover no-repeat;
 }
 
-/* line 71, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .b-top-bar {
   padding-top: 50px;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .b-site {
   width: 200px;
   float: left;
 }
 
-/* line 80, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 .b-contacts {
   float: right;
   width: 200px;
 }
-/* line 84, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 .b-contacts__email {
   float: right;
-  margin-bottom: 11px;
+  margin-bottom: 10px;
   border-bottom: 1px solid #3b71a3;
   position: relative;
   font-size: 14px;
   text-decoration: none;
 }
-/* line 91, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 .b-contacts__email:before {
   content: '';
   position: absolute;
@@ -165,37 +184,42 @@ a {
   bottom: -2px;
   border-bottom: 1px solid #365376;
 }
-/* line 99, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .b-contacts__email:hover {
   border-color: transparent;
 }
-/* line 101, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 .b-contacts__email:hover:before {
   border-color: transparent;
 }
-/* line 107, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 .b-contacts__phone {
   float: right;
   clear: right;
   color: #ffffff;
   font-size: 18px;
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
-/* line 115, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .b-contacts__action {
   float: right;
   clear: right;
   color: #459be3;
   font-size: 14px;
+  text-decoration: none;
   border-bottom: 1px dashed #459be3;
 }
+/* line 124, ../sass/style.scss */
+.b-contacts__action:hover {
+  border-color: transparent;
+}
 
-/* line 125, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .b-header-box {
   padding-top: 140px;
   text-align: center;
 }
-/* line 128, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .b-header-box__title {
   font-size: 30px;
   text-transform: uppercase;
@@ -203,7 +227,7 @@ a {
   color: #fff;
   font-weight: bold;
 }
-/* line 135, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .b-header-box__subtitle {
   max-width: 600px;
   font-size: 14px;
@@ -212,8 +236,8 @@ a {
   margin-right: auto;
   margin-bottom: 40px;
 }
-/* line 144, ../sass/style.scss */
-.b-header-box__action {
+/* line 150, ../sass/style.scss */
+.b-header-box__action, .b-block__action-button {
   text-decoration: none;
   height: 47px;
   line-height: 45px;
@@ -229,7 +253,69 @@ a {
   -webkit-transition: border-color 0.2s;
   transition: border-color 0.2s;
 }
-/* line 156, ../sass/style.scss */
-.b-header-box__action:hover {
+/* line 162, ../sass/style.scss */
+.b-header-box__action:hover, .b-block__action-button:hover {
   border-color: #529ad6;
+}
+
+/* line 168, ../sass/style.scss */
+.wrap_under-header {
+  padding: 65px 0 100px 0;
+  background: #fafafa;
+}
+
+/* line 173, ../sass/style.scss */
+.b-block {
+  margin: auto;
+}
+/* line 174, ../sass/style.scss */
+.b-block__action {
+  text-align: center;
+}
+/* line 177, ../sass/style.scss */
+.b-block__action-button {
+  display: inline-block;
+  border-color: #70b9f6;
+  border-width: 2px;
+  color: #4f4f4f;
+}
+/* line 183, ../sass/style.scss */
+.b-block__action-button:hover {
+  border-color: #40a2f3;
+}
+
+/* line 190, ../sass/style.scss */
+.b-info-wrap {
+  margin-left: -30px;
+}
+
+/* line 193, ../sass/style.scss */
+.b-info {
+  width: 480px;
+  float: left;
+  height: 138px;
+  overflow: hidden;
+  padding-left: 115px;
+  margin-bottom: 65px;
+  position: relative;
+  margin-left: 30px;
+}
+/* line 202, ../sass/style.scss */
+.b-info__title {
+  font-size: 16px;
+  color: #282828;
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+/* line 209, ../sass/style.scss */
+.b-info__content {
+  color: #5f5f5f;
+  line-height: 1.2;
+}
+/* line 213, ../sass/style.scss */
+.b-info__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
 }

@@ -35,7 +35,7 @@ $(document).ready(function() {
           pagination : false,
           paginationNumbers: false,
            singleItem : true,
-           transitionStyle : "fade",
+           // transitionStyle : "fade",
 
           // Responsive
           responsive: false,
@@ -60,7 +60,7 @@ $(document).ready(function() {
 
           //Mouse Events
           dragBeforeAnimFinish : false,
-          mouseDrag : false,
+          mouseDrag : true,
           touchDrag : true,
 
           //Transitions
@@ -79,35 +79,35 @@ $(document).ready(function() {
           afterAction: true,
           startDragging : false,
           afterLazyLoad : false,
-          // afterAction: function(){
-          //   if ( this.itemsAmount > this.visibleItems.length ) {
-          //     $('.js-sliderPrev').show();
-          //     $('.js-sliderNext').show();
+          afterAction: function(){
+            if ( this.itemsAmount > this.visibleItems.length ) {
+              $('#sliderLeft').show();
+              $('#sliderRight').show();
 
-          //     $('.js-sliderPrev').removeClass('disabled');
-          //     $('.js-sliderNext').removeClass('disabled');
-          //     if ( this.currentItem == 0 ) {
-          //       $('.js-sliderNext').addClass('disabled');
-          //     }
-          //     if ( this.currentItem == this.maximumItem ) {
-          //       $('.js-sliderPrev').addClass('disabled');
-          //     }
+              $('#sliderLeft').removeClass('disabled');
+              $('#sliderRight').removeClass('disabled');
+              if ( this.currentItem == 0 ) {
+                $('#sliderRight').addClass('disabled');
+              }
+              if ( this.currentItem == this.maximumItem ) {
+                $('#sliderLeft').addClass('disabled');
+              }
 
-          //   } else {
-          //     $('.js-sliderPrev').hide();
-          //     $('.js-sliderNext').hide();
-          //   }
-          // }
+            } else {
+              $('#sliderLeft').hide();
+              $('#sliderRight').hide();
+            }
+          }
 
         })
    // end owl carousel
 
        // Custom Navigation Events
-       $(".js-sliderPrev").click(function(e){
+       $("#sliderLeft").click(function(e){
          e.preventDefault();
          owl_slider.trigger('owl.next');
        })
-       $(".js-sliderNext").click(function(e){
+       $("#sliderRight").click(function(e){
          e.preventDefault();
          owl_slider.trigger('owl.prev');
        })

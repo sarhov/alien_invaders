@@ -333,3 +333,21 @@ a{
     font-weight: bold;
   }
 }
+
+.wrap_checklist{
+  padding: 65px 0 60px 0;
+  background:#eeeeee;
+}
+
+.b-checklist{
+  // text-align: center;
+  display: table;
+  margin: auto;
+  &__icon{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &__item{
+    margin-bottom: 13px;
+  }
+}

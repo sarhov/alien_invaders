@@ -459,3 +459,24 @@ a {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+/* line 337, ../sass/style.scss */
+.wrap_checklist {
+  padding: 65px 0 60px 0;
+  background: #eeeeee;
+}
+
+/* line 342, ../sass/style.scss */
+.b-checklist {
+  display: table;
+  margin: auto;
+}
+/* line 346, ../sass/style.scss */
+.b-checklist__icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 350, ../sass/style.scss */
+.b-checklist__item {
+  margin-bottom: 13px;
+}

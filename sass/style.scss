@@ -3,19 +3,23 @@ $icons-spacing: 20px;
 $icons-layout: vertical;
 @import "icons/*.png";
 @include all-icons-sprites;    
-  
+
 *, *:before, *:after { 
   @include box-sizing(border-box); 
 }
- 
+
 .clearfix {
   @include pie-clearfix;
 }
 
 body{
-  font-family: Verdana;
+  font-family: Verdana, Geneva, sans-serif;;
   font-size: 14px;
   color: #5f5f5f;
+}
+
+a{
+  color: #459be3;
 }
 
 .ymaps-b-zoom, .ymaps-copyrights-pane, .ymaps-group, .ymaps-b-select_control_listbox{
@@ -54,6 +58,103 @@ body{
     color: #fff;
     &:after{
       background-color: #fff;
+    }
+  }
+}
+
+
+.wrap_header{
+  height: 604px;  
+  background:#404249 url('../images/header-bg.png') center top/cover no-repeat;
+}
+
+.b-top-bar{
+  padding-top: 50px;
+}
+
+.b-site{
+  width: 200px;
+  float: left;
+}
+
+.b-contacts{
+  float: right;
+  width: 200px;
+
+  &__email{
+   float: right;
+   margin-bottom: 11px;
+   border-bottom: 1px solid #3b71a3;
+   position: relative;
+   font-size: 14px;
+   text-decoration: none;
+   &:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -2px;
+    border-bottom: 1px solid #365376;
+  }
+  &:hover{
+    border-color: transparent;
+    &:before{
+      border-color: transparent;
+    }
+  }
+}
+
+&__phone{
+  float: right;
+  clear: right;
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+&__action{
+  float: right;
+  clear: right;
+  color: #459be3;
+  font-size: 14px;
+  border-bottom: 1px dashed #459be3;
+}
+
+}
+
+.b-header-box{
+  padding-top: 140px;
+  text-align: center;
+  &__title{
+    font-size:30px ;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #fff;
+    font-weight: bold;
+  }
+  &__subtitle{
+    max-width: 600px;
+    font-size: 14px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+
+  &__action{
+    text-decoration: none;
+    height: 47px;
+    line-height: 45px;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #2f81c6;
+    padding: 0 20px;
+    text-transform: uppercase;
+    color: #fff;
+    @include transition (border-color 0.2s);
+    &:hover{
+      border-color: lighten(#2f81c6, 10%);
     }
   }
 }

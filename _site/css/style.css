@@ -69,28 +69,33 @@
 
 /* line 15, ../sass/style.scss */
 body {
-  font-family: Verdana;
+  font-family: Verdana, Geneva, sans-serif;
   font-size: 14px;
   color: #5f5f5f;
 }
 
 /* line 21, ../sass/style.scss */
+a {
+  color: #459be3;
+}
+
+/* line 25, ../sass/style.scss */
 .ymaps-b-zoom, .ymaps-copyrights-pane, .ymaps-group, .ymaps-b-select_control_listbox {
   display: none !important;
 }
 
-/* line 26, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 .wrap {
   width: 100%;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .inner {
   width: 1000px;
   margin: auto;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .b-block__title {
   font-size: 26;
   font-weight: bold;
@@ -100,7 +105,7 @@ body {
   color: #5f5f5f;
   text-transform: uppercase;
 }
-/* line 43, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .b-block__title:after {
   content: '';
   width: 120px;
@@ -111,11 +116,120 @@ body {
   left: 50%;
   margin-left: -60px;
 }
-/* line 53, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .b-block__title_white {
   color: #fff;
 }
-/* line 55, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .b-block__title_white:after {
   background-color: #fff;
+}
+
+/* line 66, ../sass/style.scss */
+.wrap_header {
+  height: 604px;
+  background: #404249 url("../images/header-bg.png") center top/cover no-repeat;
+}
+
+/* line 71, ../sass/style.scss */
+.b-top-bar {
+  padding-top: 50px;
+}
+
+/* line 75, ../sass/style.scss */
+.b-site {
+  width: 200px;
+  float: left;
+}
+
+/* line 80, ../sass/style.scss */
+.b-contacts {
+  float: right;
+  width: 200px;
+}
+/* line 84, ../sass/style.scss */
+.b-contacts__email {
+  float: right;
+  margin-bottom: 11px;
+  border-bottom: 1px solid #3b71a3;
+  position: relative;
+  font-size: 14px;
+  text-decoration: none;
+}
+/* line 91, ../sass/style.scss */
+.b-contacts__email:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: -2px;
+  border-bottom: 1px solid #365376;
+}
+/* line 99, ../sass/style.scss */
+.b-contacts__email:hover {
+  border-color: transparent;
+}
+/* line 101, ../sass/style.scss */
+.b-contacts__email:hover:before {
+  border-color: transparent;
+}
+/* line 107, ../sass/style.scss */
+.b-contacts__phone {
+  float: right;
+  clear: right;
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+/* line 115, ../sass/style.scss */
+.b-contacts__action {
+  float: right;
+  clear: right;
+  color: #459be3;
+  font-size: 14px;
+  border-bottom: 1px dashed #459be3;
+}
+
+/* line 125, ../sass/style.scss */
+.b-header-box {
+  padding-top: 140px;
+  text-align: center;
+}
+/* line 128, ../sass/style.scss */
+.b-header-box__title {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+/* line 135, ../sass/style.scss */
+.b-header-box__subtitle {
+  max-width: 600px;
+  font-size: 14px;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+/* line 144, ../sass/style.scss */
+.b-header-box__action {
+  text-decoration: none;
+  height: 47px;
+  line-height: 45px;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #2f81c6;
+  padding: 0 20px;
+  text-transform: uppercase;
+  color: #fff;
+  -moz-transition: border-color 0.2s;
+  -o-transition: border-color 0.2s;
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+}
+/* line 156, ../sass/style.scss */
+.b-header-box__action:hover {
+  border-color: #529ad6;
 }

@@ -67,7 +67,7 @@ a{
 
 .wrap_header{
   height: 604px;  
-  background:#404249 url('../images/header-bg.png') center top/cover no-repeat;
+  background:#404249 url('../images/header-bg.png') center top/cover no-repeat fixed;
 }
 
 .b-top-bar{
@@ -179,6 +179,7 @@ a{
     @extend .b-header-box__action;
     border-color: #70b9f6;
     border-width: 2px;
+    line-height: 44px;
     color: #4f4f4f;
     &:hover{
       border-color: darken(#70b9f6, 10%);
@@ -215,5 +216,38 @@ a{
     position: absolute;
     top:0;
     left:0;
+  }
+}
+
+.wrap_prices{
+  padding: 50px 0  90px 0;
+  background: #90c4f8 url('../images/boxes-bg.png') center top/cover  no-repeat fixed;
+}
+
+.b-list-wrap{
+  padding: 0 13px;
+}
+
+.b-list{
+  width: 404px;
+  &_left{
+    float: left;
+  }
+  &_right{
+    float: right;
+  }
+  &__item{
+    padding: 20px 30px;
+    background:#fafafa;
+    font-size: 14px;
+    color: #363636;
+    line-height: 1;
+    @include transition(background-color 0.3s);
+    &:not(:first-child){
+      border-top: 1px solid #e0dede;
+    }
+    &:hover{
+      background-color: darken(#fafafa, 5%);
+    }
   }
 }
